@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+<<<<<<< Updated upstream
     /////////
+=======
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    ViewController *mainVc = [[ViewController alloc]init];
+    LoginViewController *loginVC = [[LoginViewController alloc]init];
+    NSUserDefaults *userDefaultes = [NSUserDefaults standardUserDefaults];
+    NSArray *array = [userDefaultes arrayForKey:@"login"];
+    if (array.count <= 0) {
+        self.window.rootViewController = loginVC;
+    }
+    else
+    {
+        self.window.rootViewController = mainVc;
+    }
+    
+    [self.window makeKeyAndVisible];
+>>>>>>> Stashed changes
     return YES;
 }
 

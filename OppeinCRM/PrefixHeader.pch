@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  OppeinCRM
+//
+//  Created by 3Vjia on 16/1/8.
+//  Copyright © 2016年 3Vjia. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define OppeinURL @"http://oppein.3weijia.com/oppein.axds"//@"http://mtds.oppein.com/oppein.axds"
+#define PhotoURL @"http://admin.3vjia.com/mnmnhwap.axd"
+#define imagePathURL @"http://oppein.3weijia.com"
+#import "AFLoadIngView.h"
+#import "HttpRequset.h"
+#import "JSONKit.h"
+#import "SVProgressHUD.h"
+#import "userSingletion.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+
+#endif /* PrefixHeader_pch */
