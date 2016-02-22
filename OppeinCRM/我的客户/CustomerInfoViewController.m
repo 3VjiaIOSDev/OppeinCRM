@@ -32,8 +32,8 @@
     self.customerTable.dataSource = self;
     [self.view addSubview:self.customerTable];
     
-    self.customerAry1 = [[NSArray alloc]initWithObjects:self.address,@"客户详情",@"量尺信息",@"方案信息",@"方案交流",@"跟进信息", nil];
-    customerImg = [[NSArray alloc]initWithObjects:@"location",@"iconfont-liebiao",@"iconfont-iconmianfeiliangfang",@"iconfont-fangan",@"iconfont-jiaoliu",@"iconfont-bianji", nil];
+    self.customerAry1 = [[NSArray alloc]initWithObjects:self.address,@"客户详情",@"量尺信息",@"方案信息",@"方案沟通",@"客户跟进",@"收款登记",@"合同登记",@"客户流失",nil];
+    customerImg = [[NSArray alloc]initWithObjects:@"location",@"iconfont-liebiao",@"iconfont-iconmianfeiliangfang",@"iconfont-fangan",@"iconfont-jiaoliu",@"iconfont-bianji",@"iconfont-jiesuandengji",@"iconfont-hetongdengji",@"iconfont-07kehuliushiyujing",nil];
     [self initNavigation];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
