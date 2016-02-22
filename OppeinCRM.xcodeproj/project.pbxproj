@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94C606691C7AB77800198D7E /* iconfont-07kehuliushiyujing.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C606601C7AB77800198D7E /* iconfont-07kehuliushiyujing.png */; };
 		94C6066A1C7AB77800198D7E /* iconfont-bianji.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C606611C7AB77800198D7E /* iconfont-bianji.png */; };
 		94C6066B1C7AB77800198D7E /* iconfont-fangan.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C606621C7AB77800198D7E /* iconfont-fangan.png */; };
 		94C6066C1C7AB77800198D7E /* iconfont-hetongdengji.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C606631C7AB77800198D7E /* iconfont-hetongdengji.png */; };
@@ -16,6 +15,7 @@
 		94C6066F1C7AB77800198D7E /* iconfont-jiesuandengji.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C606661C7AB77800198D7E /* iconfont-jiesuandengji.png */; };
 		94C606701C7AB77800198D7E /* iconfont-liebiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C606671C7AB77800198D7E /* iconfont-liebiao.png */; };
 		94C606711C7AB77800198D7E /* iconfont-xuqiugoutong.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C606681C7AB77800198D7E /* iconfont-xuqiugoutong.png */; };
+		94C606731C7ABB0500198D7E /* iconfont-07kehuliushiyujing.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C606721C7ABB0500198D7E /* iconfont-07kehuliushiyujing.png */; };
 		9F02FFF51C448B7B004332E2 /* MearsureIistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F02FFF41C448B7B004332E2 /* MearsureIistViewController.m */; };
 		9F02FFF91C44916C004332E2 /* SchemeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F02FFF81C44916C004332E2 /* SchemeListViewController.m */; };
 		9F02FFFC1C44D639004332E2 /* AddSchemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F02FFFB1C44D639004332E2 /* AddSchemeViewController.m */; };
@@ -246,7 +246,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94C606601C7AB77800198D7E /* iconfont-07kehuliushiyujing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-07kehuliushiyujing.png"; sourceTree = "<group>"; };
 		94C606611C7AB77800198D7E /* iconfont-bianji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-bianji.png"; sourceTree = "<group>"; };
 		94C606621C7AB77800198D7E /* iconfont-fangan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-fangan.png"; sourceTree = "<group>"; };
 		94C606631C7AB77800198D7E /* iconfont-hetongdengji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-hetongdengji.png"; sourceTree = "<group>"; };
@@ -255,6 +254,7 @@
 		94C606661C7AB77800198D7E /* iconfont-jiesuandengji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-jiesuandengji.png"; sourceTree = "<group>"; };
 		94C606671C7AB77800198D7E /* iconfont-liebiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-liebiao.png"; sourceTree = "<group>"; };
 		94C606681C7AB77800198D7E /* iconfont-xuqiugoutong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-xuqiugoutong.png"; sourceTree = "<group>"; };
+		94C606721C7ABB0500198D7E /* iconfont-07kehuliushiyujing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-07kehuliushiyujing.png"; sourceTree = "<group>"; };
 		9F02FFF31C448B7B004332E2 /* MearsureIistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MearsureIistViewController.h; sourceTree = "<group>"; };
 		9F02FFF41C448B7B004332E2 /* MearsureIistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MearsureIistViewController.m; sourceTree = "<group>"; };
 		9F02FFF71C44916C004332E2 /* SchemeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemeListViewController.h; sourceTree = "<group>"; };
@@ -1078,7 +1078,7 @@
 		9F2131261C3F825F00644B0C /* image */ = {
 			isa = PBXGroup;
 			children = (
-				94C606601C7AB77800198D7E /* iconfont-07kehuliushiyujing.png */,
+				94C606721C7ABB0500198D7E /* iconfont-07kehuliushiyujing.png */,
 				94C606611C7AB77800198D7E /* iconfont-bianji.png */,
 				94C606621C7AB77800198D7E /* iconfont-fangan.png */,
 				94C606631C7AB77800198D7E /* iconfont-hetongdengji.png */,
@@ -1339,7 +1339,6 @@
 				9F21316F1C3F825F00644B0C /* first_selected@2x.png in Resources */,
 				9F2130BE1C3F45EA00644B0C /* PlayButtonOverlayLarge@3x.png in Resources */,
 				9F212FBD1C3F433300644B0C /* LaunchScreen.storyboard in Resources */,
-				94C606691C7AB77800198D7E /* iconfont-07kehuliushiyujing.png in Resources */,
 				9F2131A51C3F886300644B0C /* checkbox1_checked@2x.png in Resources */,
 				9F2130921C3F45EA00644B0C /* HZAreaPickerView.xib in Resources */,
 				9F2131A41C3F886300644B0C /* checkbox1_checked.png in Resources */,
@@ -1422,6 +1421,7 @@
 				9F21318E1C3F825F00644B0C /* secure@3x.png in Resources */,
 				9F2131641C3F825F00644B0C /* cancle@2x.png in Resources */,
 				9F2131801C3F825F00644B0C /* location@3x.png in Resources */,
+				94C606731C7ABB0500198D7E /* iconfont-07kehuliushiyujing.png in Resources */,
 				9F21317A1C3F825F00644B0C /* launchImage1242x2208.png in Resources */,
 				9F2130D91C3F45EA00644B0C /* radio_checked.png in Resources */,
 				9F2131861C3F825F00644B0C /* phone@3x.png in Resources */,
