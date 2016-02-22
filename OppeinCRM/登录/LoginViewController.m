@@ -126,7 +126,7 @@
     [psdview addSubview:secureButton];
     
     button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.backgroundColor = [UIColor colorWithRed:103/255.0 green:149/255.0 blue:221/255.0 alpha:1.0];
+    button.backgroundColor = [UIColor colorWithRed:239/255.0 green:185/255.0 blue:75/255.0 alpha:1.0];
     button.frame = CGRectMake(25, 390, viewWidth-50, 40);
     [button setTitle:@"登录" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];

@@ -33,7 +33,7 @@
     [self.view addSubview:self.customerTable];
     
     self.customerAry1 = [[NSArray alloc]initWithObjects:self.address,@"客户详情",@"量尺信息",@"方案信息",@"方案交流",@"跟进信息", nil];
-    
+    customerImg = [[NSArray alloc]initWithObjects:@"location",@"iconfont-liebiao",@"iconfont-iconmianfeiliangfang",@"iconfont-fangan",@"iconfont-jiaoliu",@"iconfont-bianji", nil];
     [self initNavigation];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -120,20 +120,21 @@
                     [cell.contentView addSubview:btn];
                 }
             }
-            else if(indexPath.row ==1)
-            {
-                UIImageView *img = [[UIImageView alloc]initWithFrame:CGRectMake(15, 10, 15, 18)];
-                img.image = [UIImage imageNamed:@"location.png"];
-                [cell.contentView addSubview:img];
-                
-                UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(40, 10, self.view.frame.size.width-50, 20)];
-                lab.text = [self.customerAry1 objectAtIndex:indexPath.row-1];
-                lab.font = [UIFont systemFontOfSize:14.0f];
-                lab.textAlignment = NSTextAlignmentLeft;
-                [cell.contentView addSubview:lab];
-            }
+//            else if(indexPath.row ==1)
+//            {
+//                UIImageView *img = [[UIImageView alloc]initWithFrame:CGRectMake(15, 10, 15, 18)];
+//                img.image = [UIImage imageNamed:@"location.png"];
+//                [cell.contentView addSubview:img];
+//                
+//                UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(40, 10, self.view.frame.size.width-50, 20)];
+//                lab.text = [self.customerAry1 objectAtIndex:indexPath.row-1];
+//                lab.font = [UIFont systemFontOfSize:14.0f];
+//                lab.textAlignment = NSTextAlignmentLeft;
+//                [cell.contentView addSubview:lab];
+//            }
             else
             {
+                cell.imageView.image = [UIImage imageNamed:[customerImg objectAtIndex:indexPath.row-1]];
                 cell.textLabel.text = [self.customerAry1 objectAtIndex:indexPath.row-1];
                 cell.textLabel.font = [UIFont systemFontOfSize:14.0f];
             }

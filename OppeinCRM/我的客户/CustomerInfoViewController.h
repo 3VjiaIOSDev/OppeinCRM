@@ -15,6 +15,7 @@ MFMessageComposeViewControllerDelegate,UIActionSheetDelegate>
 {
     UILabel *infoLab;
     UIButton *infoBtn;
+    NSArray * customerImg;
 }
 
 @property NSArray *customerAry1;
