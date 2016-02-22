@@ -19,10 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    /////////
-=======
+
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
@@ -39,10 +36,7 @@
     }
     
     [self.window makeKeyAndVisible];
->>>>>>> Stashed changes
-=======
-    /////////11111111
->>>>>>> origin/master
+
     return YES;
 }
 
